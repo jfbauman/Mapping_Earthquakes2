@@ -130,7 +130,6 @@ let legend = L.control({
   // Then add all the details for the legend.
 legend.onAdd = function() {
     let div = L.DomUtil.create("div", "info legend");
-  };
 
   const magnitudes = [0, 1, 2, 3, 4, 5];
 const colors = [
